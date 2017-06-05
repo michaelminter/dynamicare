@@ -1,0 +1,57 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/geocode/json?address=25%20Ford%20Ave.,%20Lakewood,%20New%20Jersey%2087015&key=123
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin15.4.0 x86_64) ruby/2.3.1p112
+      Host:
+      - maps.googleapis.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Mon, 05 Jun 2017 03:07:27 GMT
+      Pragma:
+      - no-cache
+      Expires:
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Vary:
+      - Accept-Language
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Encoding:
+      - gzip
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="38,37,36,35"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAC/6vmUlBQUEotKsovis9NLS5OTE9VUrBSUArJSFUoKMovy0xJ
+        TVFwDPBUyE6tVMgsVsjMK0vMyUzRU9IBayxKLS7NKSkGaYmOhQgVlySWlIJF
+        lIJcA0Ndg0PiXVz9PF1dlLhquQAt3PdabwAAAA==
+    http_version: 
+  recorded_at: Mon, 05 Jun 2017 03:07:27 GMT
+recorded_with: VCR 3.0.3

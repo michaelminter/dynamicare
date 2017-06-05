@@ -27,6 +27,8 @@ gem 'bootstrap-sass'
 gem 'jquery-rails'
 gem 'pg'
 
+gem 'rest-client', '~> 2.0.2'
+
 group :development do
   gem 'foreman'
   gem 'hub', :require=>nil
@@ -41,4 +43,6 @@ end
 group :test do
   gem 'database_cleaner'
   gem 'launchy'
+  gem 'vcr', '~> 3.0.3'
+  gem 'webmock', '~> 3.0.1'
 end
